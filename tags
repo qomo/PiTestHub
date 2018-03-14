@@ -1,0 +1,201 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Adb	Lib/uiautomator/__init__.py	/^class Adb(object):$/;"	c
+AndroidDevice	Hub/run.py	/^class AndroidDevice(Resource):$/;"	c
+AndroidDeviceManager	Hub/run.py	/^class AndroidDeviceManager(Resource):$/;"	c
+AutomatorDevice	Lib/uiautomator/__init__.py	/^class AutomatorDevice(object):$/;"	c
+AutomatorDeviceNamedUiObject	Lib/uiautomator/__init__.py	/^class AutomatorDeviceNamedUiObject(AutomatorDeviceUiObject):$/;"	c
+AutomatorDeviceObject	Lib/uiautomator/__init__.py	/^class AutomatorDeviceObject(AutomatorDeviceUiObject):$/;"	c
+AutomatorDeviceUiObject	Lib/uiautomator/__init__.py	/^class AutomatorDeviceUiObject(object):$/;"	c
+AutomatorServer	Lib/uiautomator/__init__.py	/^class AutomatorServer(object):$/;"	c
+DEVICE_PORT	Lib/uiautomator/__init__.py	/^DEVICE_PORT = int(os.environ.get('UIAUTOMATOR_DEVICE_PORT', '9008'))$/;"	v
+Device	Lib/uiautomator/__init__.py	/^Device = AutomatorDevice$/;"	v
+Handlers	Lib/uiautomator/__init__.py	/^        class Handlers(object):$/;"	c	function:AutomatorDevice.handlers
+HelloWorld	Hub/run.py	/^class HelloWorld(Resource):$/;"	c
+Iter	Lib/uiautomator/__init__.py	/^        class Iter(object):$/;"	c	function:AutomatorDeviceObject.__iter__
+JsonRPCClient	Lib/uiautomator/__init__.py	/^class JsonRPCClient(object):$/;"	c
+JsonRPCError	Lib/uiautomator/__init__.py	/^class JsonRPCError(Exception):$/;"	c
+JsonRPCMethod	Lib/uiautomator/__init__.py	/^class JsonRPCMethod(object):$/;"	c
+LOCAL_PORT	Lib/uiautomator/__init__.py	/^LOCAL_PORT = int(os.environ.get('UIAUTOMATOR_LOCAL_PORT', '9008'))$/;"	v
+NotFoundHandler	Lib/uiautomator/__init__.py	/^class NotFoundHandler(object):$/;"	c
+Selector	Lib/uiautomator/__init__.py	/^class Selector(dict):$/;"	c
+U	Lib/uiautomator/__init__.py	/^def U(x):$/;"	f
+Watcher	Lib/uiautomator/__init__.py	/^        class Watcher(object):$/;"	c	function:AutomatorDevice.watcher
+Watchers	Lib/uiautomator/__init__.py	/^        class Watchers(list):$/;"	c	function:AutomatorDevice.watchers
+Wrapper	Lib/uiautomator/__init__.py	/^    class Wrapper(object):$/;"	c	function:param_to_property
+_JsonRPCMethod	Lib/uiautomator/__init__.py	/^        def _JsonRPCMethod(url, method, timeout, restart=True):$/;"	f	function:AutomatorServer.jsonrpc_wrap
+_Screen	Lib/uiautomator/__init__.py	/^        class _Screen(object):$/;"	c	function:AutomatorDevice.screen
+__alias	Lib/uiautomator/__init__.py	/^    __alias = {$/;"	v	class:AutomatorDevice
+__alias	Lib/uiautomator/__init__.py	/^    __alias = {'description': "contentDescription"}$/;"	v	class:AutomatorDeviceUiObject
+__all__	Lib/uiautomator/__init__.py	/^__all__ = ["device", "Device", "rect", "point", "Selector", "JsonRPCError"]$/;"	v
+__apk_files	Lib/uiautomator/__init__.py	/^    __apk_files = ["libs\/app-uiautomator.apk", "libs\/app-uiautomator-test.apk"]$/;"	v	class:AutomatorServer
+__author__	Lib/uiautomator/__init__.py	/^__author__ = "Xiaocong He"$/;"	v
+__call__	Lib/uiautomator/__init__.py	/^            def __call__(self, action):$/;"	m	class:AutomatorDevice.screen._Screen	file:
+__call__	Lib/uiautomator/__init__.py	/^        def __call__(self, *args, **kwargs):$/;"	m	class:param_to_property.Wrapper	file:
+__call__	Lib/uiautomator/__init__.py	/^    def __call__(self, **kwargs):$/;"	m	class:AutomatorDevice	file:
+__call__	Lib/uiautomator/__init__.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:JsonRPCMethod	file:
+__delitem__	Lib/uiautomator/__init__.py	/^    def __delitem__(self, k):$/;"	m	class:Selector	file:
+__eq__	Lib/uiautomator/__init__.py	/^            def __eq__(self, value):$/;"	m	class:AutomatorDevice.screen._Screen	file:
+__fields	Lib/uiautomator/__init__.py	/^    __fields = {$/;"	v	class:Selector
+__get__	Lib/uiautomator/__init__.py	/^    def __get__(self, instance, type):$/;"	m	class:NotFoundHandler	file:
+__getattr__	Lib/uiautomator/__init__.py	/^        def __getattr__(self, attr):$/;"	m	class:param_to_property.Wrapper	file:
+__getattr__	Lib/uiautomator/__init__.py	/^    def __getattr__(self, attr):$/;"	m	class:AutomatorDevice	file:
+__getattr__	Lib/uiautomator/__init__.py	/^    def __getattr__(self, attr):$/;"	m	class:AutomatorDeviceUiObject	file:
+__getattr__	Lib/uiautomator/__init__.py	/^    def __getattr__(self, method):$/;"	m	class:JsonRPCClient	file:
+__getitem__	Lib/uiautomator/__init__.py	/^    def __getitem__(self, index):$/;"	m	class:AutomatorDeviceObject	file:
+__init__	Lib/uiautomator/__init__.py	/^            def __init__(self):$/;"	m	class:AutomatorDevice.watcher.Watcher
+__init__	Lib/uiautomator/__init__.py	/^            def __init__(self):$/;"	m	class:AutomatorDevice.watchers.Watchers
+__init__	Lib/uiautomator/__init__.py	/^            def __init__(self):$/;"	m	class:AutomatorDeviceObject.__iter__.Iter
+__init__	Lib/uiautomator/__init__.py	/^        def __init__(self, func):$/;"	m	class:param_to_property.Wrapper
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self):$/;"	m	class:NotFoundHandler
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, **kwargs):$/;"	m	class:Selector
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, code, message):$/;"	m	class:JsonRPCError
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, device, name):$/;"	m	class:AutomatorDeviceNamedUiObject
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, device, selector):$/;"	m	class:AutomatorDeviceObject
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, device, selector):$/;"	m	class:AutomatorDeviceUiObject
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, serial=None, adb_server_host=None, adb_server_port=None):$/;"	m	class:Adb
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, serial=None, local_port=None, adb_server_host=None, adb_server_port=None):$/;"	m	class:AutomatorDevice
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, serial=None, local_port=None, device_port=None, adb_server_host=None, adb_server_port=None):$/;"	m	class:AutomatorServer
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, url, method, timeout=30):$/;"	m	class:JsonRPCMethod
+__init__	Lib/uiautomator/__init__.py	/^    def __init__(self, url, timeout=30, method_class=JsonRPCMethod):$/;"	m	class:JsonRPCClient
+__iter__	Lib/uiautomator/__init__.py	/^    def __iter__(self):$/;"	m	class:AutomatorDeviceObject	file:
+__jar_files	Lib/uiautomator/__init__.py	/^    __jar_files = {$/;"	v	class:AutomatorServer
+__jsonrpc	Lib/uiautomator/__init__.py	/^    def __jsonrpc(self):$/;"	m	class:AutomatorServer	file:
+__len__	Lib/uiautomator/__init__.py	/^    def __len__(self):$/;"	m	class:AutomatorDeviceObject	file:
+__ne__	Lib/uiautomator/__init__.py	/^            def __ne__(self, value):$/;"	m	class:AutomatorDevice.screen._Screen	file:
+__next__	Lib/uiautomator/__init__.py	/^            __next__ = next$/;"	v	class:AutomatorDeviceObject.__iter__.Iter
+__orientation	Lib/uiautomator/__init__.py	/^    __orientation = (  # device orientation$/;"	v	class:AutomatorDevice
+__scroll	Lib/uiautomator/__init__.py	/^        def __scroll(vertical, forward, steps=100):$/;"	f	function:AutomatorDeviceObject.scroll	file:
+__scroll_to	Lib/uiautomator/__init__.py	/^        def __scroll_to(vertical, **kwargs):$/;"	f	function:AutomatorDeviceObject.scroll	file:
+__scroll_to_beginning	Lib/uiautomator/__init__.py	/^        def __scroll_to_beginning(vertical, steps=100, max_swipes=1000):$/;"	f	function:AutomatorDeviceObject.scroll	file:
+__scroll_to_end	Lib/uiautomator/__init__.py	/^        def __scroll_to_end(vertical, steps=100, max_swipes=1000):$/;"	f	function:AutomatorDeviceObject.scroll	file:
+__sdk	Lib/uiautomator/__init__.py	/^    __sdk = 0$/;"	v	class:AutomatorServer
+__setitem__	Lib/uiautomator/__init__.py	/^    def __setitem__(self, k, v):$/;"	m	class:Selector	file:
+__str__	Lib/uiautomator/__init__.py	/^    def __str__(self):$/;"	m	class:JsonRPCError	file:
+__view_beside	Lib/uiautomator/__init__.py	/^    def __view_beside(self, onsideof, **kwargs):$/;"	m	class:AutomatorDeviceObject	file:
+_click	Lib/uiautomator/__init__.py	/^        def _click(action=None, timeout=3000):$/;"	f	function:AutomatorDeviceUiObject.click
+_fling	Lib/uiautomator/__init__.py	/^        def _fling(dimention="vert", action="forward", max_swipes=1000):$/;"	f	function:AutomatorDeviceObject.fling
+_init_local_port	Lib/uiautomator/__init__.py	/^_init_local_port = LOCAL_PORT - 1$/;"	v
+_long_click	Lib/uiautomator/__init__.py	/^        def _long_click(corner=None):$/;"	f	function:AutomatorDeviceUiObject.long_click
+_open	Lib/uiautomator/__init__.py	/^        def _open(action):$/;"	f	function:AutomatorDevice.open
+_pinch	Lib/uiautomator/__init__.py	/^        def _pinch(in_or_out="Out", percent=100, steps=50):$/;"	f	function:AutomatorDeviceUiObject.pinch
+_press	Lib/uiautomator/__init__.py	/^                def _press(*args):$/;"	f	function:AutomatorDevice.watcher.Watcher.press
+_press	Lib/uiautomator/__init__.py	/^        def _press(key, meta=None):$/;"	f	function:AutomatorDevice.press
+_scroll	Lib/uiautomator/__init__.py	/^        def _scroll(dimention="vert", action="forward", **kwargs):$/;"	f	function:AutomatorDeviceObject.scroll
+_swipe	Lib/uiautomator/__init__.py	/^        def _swipe(direction="left", steps=10, percent=1):$/;"	f	function:AutomatorDeviceUiObject.swipe
+_wait	Lib/uiautomator/__init__.py	/^        def _wait(action, timeout=1000, package_name=None):$/;"	f	function:AutomatorDevice.wait
+_wait	Lib/uiautomator/__init__.py	/^        def _wait(action, timeout=3000):$/;"	f	function:AutomatorDeviceUiObject.wait
+above	Lib/uiautomator/__init__.py	/^        def above(rect1, rect2):$/;"	f	function:AutomatorDeviceObject.up
+adb	Lib/uiautomator/__init__.py	/^    def adb(self):$/;"	m	class:Adb
+alive	Lib/uiautomator/__init__.py	/^    def alive(self):$/;"	m	class:AutomatorServer
+api	Hub/run.py	/^api = Api(app)$/;"	v
+app	Hub/run.py	/^app = Flask(__name__)$/;"	v
+child	Lib/uiautomator/__init__.py	/^    def child(self, **kwargs):$/;"	m	class:AutomatorDeviceNamedUiObject
+child	Lib/uiautomator/__init__.py	/^    def child(self, **kwargs):$/;"	m	class:AutomatorDeviceObject
+child	Lib/uiautomator/__init__.py	/^    def child(self, **kwargs):$/;"	m	class:Selector
+child_by_description	Lib/uiautomator/__init__.py	/^    def child_by_description(self, txt, **kwargs):$/;"	m	class:AutomatorDeviceObject
+child_by_instance	Lib/uiautomator/__init__.py	/^    def child_by_instance(self, inst, **kwargs):$/;"	m	class:AutomatorDeviceObject
+child_by_text	Lib/uiautomator/__init__.py	/^    def child_by_text(self, txt, **kwargs):$/;"	m	class:AutomatorDeviceObject
+clear_text	Lib/uiautomator/__init__.py	/^    def clear_text(self):$/;"	m	class:AutomatorDeviceUiObject
+clear_traversed_text	Lib/uiautomator/__init__.py	/^    def clear_traversed_text(self):$/;"	m	class:AutomatorDevice
+click	Lib/uiautomator/__init__.py	/^            def click(self, **kwargs):$/;"	m	class:AutomatorDevice.watcher.Watcher
+click	Lib/uiautomator/__init__.py	/^    def click(self):$/;"	m	class:AutomatorDeviceUiObject
+click	Lib/uiautomator/__init__.py	/^    def click(self, x, y):$/;"	m	class:AutomatorDevice
+clone	Lib/uiautomator/__init__.py	/^    def clone(self):$/;"	m	class:Selector
+cmd	Lib/uiautomator/__init__.py	/^    def cmd(self, *args, **kwargs):$/;"	m	class:Adb
+count	Lib/uiautomator/__init__.py	/^    def count(self):$/;"	m	class:AutomatorDeviceObject
+device	Lib/uiautomator/__init__.py	/^device = AutomatorDevice()$/;"	v
+device_serial	Lib/uiautomator/__init__.py	/^    def device_serial(self):$/;"	m	class:Adb
+devices	Lib/uiautomator/__init__.py	/^    def devices(self):$/;"	m	class:Adb
+down	Lib/uiautomator/__init__.py	/^    def down(self, **kwargs):$/;"	m	class:AutomatorDeviceObject
+drag	Lib/uiautomator/__init__.py	/^    def drag(self):$/;"	m	class:AutomatorDeviceUiObject
+drag	Lib/uiautomator/__init__.py	/^    def drag(self, sx, sy, ex, ey, steps=100):$/;"	m	class:AutomatorDevice
+dump	Lib/uiautomator/__init__.py	/^    def dump(self, filename=None, compressed=True, pretty=True):$/;"	m	class:AutomatorDevice
+exists	Lib/uiautomator/__init__.py	/^    def exists(self):$/;"	m	class:AutomatorDeviceUiObject
+exists	Lib/uiautomator/__init__.py	/^    def exists(self, **kwargs):$/;"	m	class:AutomatorDevice
+fling	Lib/uiautomator/__init__.py	/^    def fling(self):$/;"	m	class:AutomatorDeviceObject
+forward	Lib/uiautomator/__init__.py	/^    def forward(self, local_port, device_port):$/;"	m	class:Adb
+forward_list	Lib/uiautomator/__init__.py	/^    def forward_list(self):$/;"	m	class:Adb
+freeze_rotation	Lib/uiautomator/__init__.py	/^    def freeze_rotation(self, freeze=True):$/;"	m	class:AutomatorDevice
+gesture	Lib/uiautomator/__init__.py	/^    def gesture(self, start1, start2, *args, **kwargs):$/;"	m	class:AutomatorDeviceUiObject
+gestureM	Lib/uiautomator/__init__.py	/^    def gestureM(self, start1, start2, start3, *args, **kwargs):$/;"	m	class:AutomatorDeviceUiObject
+get	Hub/run.py	/^    def get(self):$/;"	m	class:AndroidDevice
+get	Hub/run.py	/^    def get(self):$/;"	m	class:AndroidDeviceManager
+get	Hub/run.py	/^    def get(self):$/;"	m	class:HelloWorld
+handlers	Lib/uiautomator/__init__.py	/^    def handlers(self):$/;"	m	class:AutomatorDevice
+handlers	Lib/uiautomator/__init__.py	/^    handlers = NotFoundHandler()  # handler UI Not Found exception$/;"	v	class:AutomatorServer
+id	Lib/uiautomator/__init__.py	/^    def id(self):$/;"	m	class:JsonRPCMethod
+info	Lib/uiautomator/__init__.py	/^    def info(self):$/;"	m	class:AutomatorDevice
+info	Lib/uiautomator/__init__.py	/^    def info(self):$/;"	m	class:AutomatorDeviceUiObject
+install	Lib/uiautomator/__init__.py	/^    def install(self):$/;"	m	class:AutomatorServer
+intersect	Lib/uiautomator/__init__.py	/^def intersect(rect1, rect2):$/;"	f
+is_port_listening	Lib/uiautomator/__init__.py	/^    def is_port_listening(port):$/;"	f	function:next_local_port
+jsonrpc	Lib/uiautomator/__init__.py	/^    def jsonrpc(self):$/;"	m	class:AutomatorServer
+jsonrpc_wrap	Lib/uiautomator/__init__.py	/^    def jsonrpc_wrap(self, timeout):$/;"	m	class:AutomatorServer
+last_traversed_text	Lib/uiautomator/__init__.py	/^    def last_traversed_text(self):$/;"	m	class:AutomatorDevice
+left	Lib/uiautomator/__init__.py	/^    def left(self, **kwargs):$/;"	m	class:AutomatorDeviceObject
+long_click	Lib/uiautomator/__init__.py	/^    def long_click(self):$/;"	m	class:AutomatorDeviceUiObject
+long_click	Lib/uiautomator/__init__.py	/^    def long_click(self, x, y):$/;"	m	class:AutomatorDevice
+next	Lib/uiautomator/__init__.py	/^            def next(self):$/;"	m	class:AutomatorDeviceObject.__iter__.Iter
+next_local_port	Lib/uiautomator/__init__.py	/^def next_local_port(adbHost=None):$/;"	f
+off	Lib/uiautomator/__init__.py	/^            def off(self):$/;"	m	class:AutomatorDevice.screen._Screen
+off	Lib/uiautomator/__init__.py	/^            def off(self, fn):$/;"	m	class:AutomatorDevice.handlers.Handlers
+on	Lib/uiautomator/__init__.py	/^            def on(self):$/;"	m	class:AutomatorDevice.screen._Screen
+on	Lib/uiautomator/__init__.py	/^            def on(self, fn):$/;"	m	class:AutomatorDevice.handlers.Handlers
+onleftof	Lib/uiautomator/__init__.py	/^        def onleftof(rect1, rect2):$/;"	f	function:AutomatorDeviceObject.left
+onrightof	Lib/uiautomator/__init__.py	/^        def onrightof(rect1, rect2):$/;"	f	function:AutomatorDeviceObject.right
+open	Lib/uiautomator/__init__.py	/^    def open(self):$/;"	m	class:AutomatorDevice
+orientation	Lib/uiautomator/__init__.py	/^    def orientation(self):$/;"	m	class:AutomatorDevice
+orientation	Lib/uiautomator/__init__.py	/^    def orientation(self, value):$/;"	m	class:AutomatorDevice
+param_to_property	Lib/uiautomator/__init__.py	/^def param_to_property(*props, **kwprops):$/;"	f
+pinch	Lib/uiautomator/__init__.py	/^    def pinch(self):$/;"	m	class:AutomatorDeviceUiObject
+ping	Lib/uiautomator/__init__.py	/^    def ping(self):$/;"	m	class:AutomatorServer
+point	Lib/uiautomator/__init__.py	/^def point(x=0, y=0):$/;"	f
+pool	Lib/uiautomator/__init__.py	/^            pool = urllib3.PoolManager()$/;"	v	class:JsonRPCMethod
+press	Lib/uiautomator/__init__.py	/^            def press(self):$/;"	m	class:AutomatorDevice.watcher.Watcher
+press	Lib/uiautomator/__init__.py	/^    def press(self):$/;"	m	class:AutomatorDevice
+push	Lib/uiautomator/__init__.py	/^    def push(self):$/;"	m	class:AutomatorServer
+raw_cmd	Lib/uiautomator/__init__.py	/^    def raw_cmd(self, *args):$/;"	m	class:Adb
+rect	Lib/uiautomator/__init__.py	/^def rect(top=0, left=0, bottom=100, right=100):$/;"	f
+remove	Lib/uiautomator/__init__.py	/^            def remove(self):$/;"	m	class:AutomatorDevice.watcher.Watcher
+remove	Lib/uiautomator/__init__.py	/^            def remove(self, name=None):$/;"	m	class:AutomatorDevice.watchers.Watchers
+reset	Lib/uiautomator/__init__.py	/^            def reset(self):$/;"	m	class:AutomatorDevice.watchers.Watchers
+right	Lib/uiautomator/__init__.py	/^    def right(self, **kwargs):$/;"	m	class:AutomatorDeviceObject
+rpc_uri	Lib/uiautomator/__init__.py	/^    def rpc_uri(self):$/;"	m	class:AutomatorServer
+run	Lib/uiautomator/__init__.py	/^            def run(self):$/;"	m	class:AutomatorDevice.watchers.Watchers
+screen	Lib/uiautomator/__init__.py	/^    def screen(self):$/;"	m	class:AutomatorDevice
+screenshot	Lib/uiautomator/__init__.py	/^    def screenshot(self, filename, scale=1.0, quality=100):$/;"	m	class:AutomatorDevice
+screenshot	Lib/uiautomator/__init__.py	/^    def screenshot(self, filename=None, scale=1.0, quality=100):$/;"	m	class:AutomatorServer
+screenshot_uri	Lib/uiautomator/__init__.py	/^    def screenshot_uri(self):$/;"	m	class:AutomatorServer
+scroll	Lib/uiautomator/__init__.py	/^    def scroll(self):$/;"	m	class:AutomatorDeviceObject
+sdk_version	Lib/uiautomator/__init__.py	/^    def sdk_version(self):$/;"	m	class:AutomatorServer
+set_text	Lib/uiautomator/__init__.py	/^    def set_text(self, text):$/;"	m	class:AutomatorDeviceUiObject
+sibling	Lib/uiautomator/__init__.py	/^    def sibling(self, **kwargs):$/;"	m	class:AutomatorDeviceNamedUiObject
+sibling	Lib/uiautomator/__init__.py	/^    def sibling(self, **kwargs):$/;"	m	class:AutomatorDeviceObject
+sibling	Lib/uiautomator/__init__.py	/^    def sibling(self, **kwargs):$/;"	m	class:Selector
+sleep	Lib/uiautomator/__init__.py	/^    def sleep(self):$/;"	m	class:AutomatorDevice
+start	Lib/uiautomator/__init__.py	/^    def start(self, timeout=5):$/;"	m	class:AutomatorServer
+stop	Lib/uiautomator/__init__.py	/^    def stop(self):$/;"	m	class:AutomatorServer
+stop_uri	Lib/uiautomator/__init__.py	/^    def stop_uri(self):$/;"	m	class:AutomatorServer
+swipe	Lib/uiautomator/__init__.py	/^    def swipe(self):$/;"	m	class:AutomatorDeviceUiObject
+swipe	Lib/uiautomator/__init__.py	/^    def swipe(self, sx, sy, ex, ey, steps=100):$/;"	m	class:AutomatorDevice
+swipePoints	Lib/uiautomator/__init__.py	/^    def swipePoints(self, points, steps=100):$/;"	m	class:AutomatorDevice
+to	Lib/uiautomator/__init__.py	/^        def to(obj, *args, **kwargs):$/;"	f	function:AutomatorDeviceUiObject.drag
+to	Lib/uiautomator/__init__.py	/^        def to(obj_self, end1, end2, end3, steps=100):$/;"	f	function:AutomatorDeviceUiObject.gestureM
+to	Lib/uiautomator/__init__.py	/^        def to(obj_self, end1, end2, steps=100):$/;"	f	function:AutomatorDeviceUiObject.gesture
+triggered	Lib/uiautomator/__init__.py	/^            def triggered(self):$/;"	m	class:AutomatorDevice.watcher.Watcher
+triggered	Lib/uiautomator/__init__.py	/^            def triggered(self):$/;"	m	class:AutomatorDevice.watchers.Watchers
+under	Lib/uiautomator/__init__.py	/^        def under(rect1, rect2):$/;"	f	function:AutomatorDeviceObject.down
+up	Lib/uiautomator/__init__.py	/^    def up(self, **kwargs):$/;"	m	class:AutomatorDeviceObject
+version	Lib/uiautomator/__init__.py	/^    def version(self):$/;"	m	class:Adb
+wait	Lib/uiautomator/__init__.py	/^    def wait(self):$/;"	m	class:AutomatorDevice
+wait	Lib/uiautomator/__init__.py	/^    def wait(self):$/;"	m	class:AutomatorDeviceUiObject
+wakeup	Lib/uiautomator/__init__.py	/^    def wakeup(self):$/;"	m	class:AutomatorDevice
+watcher	Lib/uiautomator/__init__.py	/^    def watcher(self, name):$/;"	m	class:AutomatorDevice
+watchers	Lib/uiautomator/__init__.py	/^    def watchers(self):$/;"	m	class:AutomatorDevice
+when	Lib/uiautomator/__init__.py	/^            def when(self, **kwargs):$/;"	m	class:AutomatorDevice.watcher.Watcher
+wrapper	Lib/uiautomator/__init__.py	/^            def wrapper(*args, **kwargs):$/;"	f	function:AutomatorServer.jsonrpc_wrap._JsonRPCMethod

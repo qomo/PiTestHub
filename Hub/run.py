@@ -9,11 +9,16 @@ class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world!'}
 
+class AndroidDeviceManager(Resource):
+    def get(self):
+        return 'test'
+
 class AndroidDevice(Resource):
     def get(self):
-        pass
+        return {'hhhh': 'hhhh'}
 
 api.add_resource(HelloWorld, '/')
+api.add_resource(AndroidDeviceManager, '/android_device')
 
 if __name__ == '__main__':
     app.run(host='192.168.3.19', debug=True)
