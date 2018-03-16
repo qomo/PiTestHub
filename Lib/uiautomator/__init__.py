@@ -431,7 +431,8 @@ class AutomatorServer(object):
                     if e.code >= ERROR_CODE_BASE - 1:
                         server.stop()
                         server.start()
-                        return _method_obj(*args, **kwargs)
+#                        return _method_obj(*args, **kwargs)
+                        return _JsonRPCMethod(url, method, timeout, False)(*args, **kwargs)
                     elif e.code == ERROR_CODE_BASE - 2 and self.handlers['on']:  # Not Found
                         try:
                             self.handlers['on'] = False
@@ -471,15 +472,18 @@ class AutomatorServer(object):
         else:
             print("sdk_version >= 18")
 #            self.install()
-            cmd = "shell \"am instrument -w com.github.uiautomator.test/android.support.test.runner.AndroidJUnitRunner\""
+            cmd = "shell \"nohup am instrument -w com.github.uiautomator.test/android.support.test.runner.AndroidJUnitRunner > /sdcard/uiautomator.log\"&"
         self.uiautomator_process = self.adb.cmd(cmd)
         self.adb.forward(self.local_port, self.device_port)
+        print("Debug 0")
 
         while not self.alive and timeout > 0:
+            print("Debug 1")
             time.sleep(0.1)
             timeout -= 0.1
         if not self.alive:
             raise IOError("RPC server not started!")
+        print("Debug 2")
 
     def ping(self):
         try:
